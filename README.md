@@ -297,45 +297,6 @@ implementation("com.squareup.okhttp3:okhttp:4.12.0")
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 👥 Authors
-
-- **Sujal** - Initial work
-
----
-
-## 🙏 Acknowledgments
-
-- Google ML Kit for text recognition
-- CameraX for camera functionality
-- Material Design 3 for beautiful UI
-- Android Jetpack for modern Android development
-
----
-
-## 📞 Support
-
-For support, email support@axiomsecurity.com or open an issue in this repository.
-
----
-
 ## 🔮 Future Enhancements
 
 - [ ] Voice passphrase authentication
@@ -349,12 +310,7 @@ For support, email support@axiomsecurity.com or open an issue in this repository
 - [ ] Geofencing alerts
 - [ ] Multi-language support
 
----
-
-## ⚠️ Disclaimer
-
-This app is designed for educational and personal security purposes. Always follow local laws and regulations regarding surveillance and monitoring. The developers are not responsible for misuse of this application.
 
 ---
 
-**Made with ❤️ for a safer digital world**
+

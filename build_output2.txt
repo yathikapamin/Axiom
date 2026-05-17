@@ -1,0 +1,112 @@
+﻿.\gradlew.bat : WARNING: A restricted 
+method in java.lang.System has been called
+At line:1 char:1
++ .\gradlew.bat :app:assembleDebug 2>&1 | 
+Out-File -FilePath build_outp ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: 
+    (WARNING: A rest...has been called:Str  
+  ing) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommand 
+   Error
+ 
+WARNING: java.lang.System::load has been 
+called by net.rubygrapefruit.platform.intern
+al.NativeLibraryLoader in an unnamed module 
+(file:/C:/Users/sujal/.gradle/wrapper/dists/
+gradle-8.13-bin/5xuhj0ry160q40clulazy9h7d/gr
+adle-8.13/lib/native-platform-0.22-milestone
+-28.jar)
+WARNING: Use 
+--enable-native-access=ALL-UNNAMED to avoid 
+a warning for callers in this module
+WARNING: Restricted methods will be blocked 
+in a future release unless native access is 
+enabled
+
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:processDebugNavigationResources UP-TO-DATE
+> Task :app:compileDebugNavigationResources UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :app:mergeLibDexDebug UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeDebugNativeLibs UP-TO-DATE
+> Task :app:stripDebugDebugSymbols UP-TO-DATE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :app:kspDebugKotlin
+
+> Task :app:compileDebugKotlin
+w: file:///D:/project%20by%20sujal/axiom/app/src/main/java/com/example/axiom/EmergencyLockActivity.kt:293:18 This declaration overrides a deprecated member but is not marked as deprecated itself. Please add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///D:/project%20by%20sujal/axiom/app/src/main/java/com/example/axiom/EmergencyLockActivity.kt:298:15 'fun onRequestPermissionsResult(p0: Int, p1: (Array<String!>..Array<out String!>), p2: IntArray): Unit' is deprecated. Deprecated in Java.
+w: file:///D:/project%20by%20sujal/axiom/app/src/main/java/com/example/axiom/LockdownOverlayActivity.kt:72:52 'static field FLAG_FULLSCREEN: Int' is deprecated. Deprecated in Java.
+w: file:///D:/project%20by%20sujal/axiom/app/src/main/java/com/example/axiom/LockdownOverlayActivity.kt:146:40 This is a delicate API and its use requires care. Make sure you fully read and understand documentation of the declaration that is marked as a delicate API.
+w: file:///D:/project%20by%20sujal/axiom/app/src/main/java/com/example/axiom/LockdownOverlayActivity.kt:161:40 This is a delicate API and its use requires care. Make sure you fully read and understand documentation of the declaration that is marked as a delicate API.
+w: file:///D:/project%20by%20sujal/axiom/app/src/main/java/com/example/axiom/LockdownOverlayActivity.kt:188:28 This is a delicate API and its use requires care. Make sure you fully read and understand documentation of the declaration that is marked as a delicate API.
+w: file:///D:/project%20by%20sujal/axiom/app/src/main/java/com/example/axiom/QuickAuthActivity.kt:390:26 'val LocalLifecycleOwner: ProvidableCompositionLocal<LifecycleOwner>' is deprecated. Moved to lifecycle-runtime-compose library in androidx.lifecycle.compose package.
+w: file:///D:/project%20by%20sujal/axiom/app/src/main/java/com/example/axiom/ThreatAlertActivity.kt:109:17 'fun Divider(modifier: Modifier = ..., thickness: Dp = ..., color: Color = ...): Unit' is deprecated. Renamed to HorizontalDivider.
+w: file:///D:/project%20by%20sujal/axiom/app/src/main/java/com/example/axiom/services/AxiomSecurityService.kt:106:9 'fun stopForeground(p0: Boolean): Unit' is deprecated. Deprecated in Java.
+w: file:///D:/project%20by%20sujal/axiom/app/src/main/java/com/example/axiom/services/AxiomSecurityService.kt:194:26 'fun setTargetResolution(p0: Size): ImageCapture.Builder' is deprecated. Deprecated in Java.
+w: file:///D:/project%20by%20sujal/axiom/app/src/main/java/com/example/axiom/services/FinancialFraudDetectionService.kt:197:40 'fun get(p0: String!): Any?' is deprecated. Deprecated in Java.
+w: file:///D:/project%20by%20sujal/axiom/app/src/main/java/com/example/axiom/services/FinancialFraudDetectionService.kt:202:49 'fun getParcelableArray(p0: String?): (Array<Parcelable!>?..Array<out Parcelable!>?)' is deprecated. Deprecated in Java.
+w: file:///D:/project%20by%20sujal/axiom/app/src/main/java/com/example/axiom/services/FinancialFraudDetectionService.kt:210:58 'fun get(p0: String!): Any?' is deprecated. Deprecated in Java.
+w: file:///D:/project%20by%20sujal/axiom/app/src/main/java/com/example/axiom/services/FinancialFraudDetectionService.kt:242:38 'fun get(p0: String!): Any?' is deprecated. Deprecated in Java.
+w: file:///D:/project%20by%20sujal/axiom/app/src/main/java/com/example/axiom/services/ImageAnalysisService.kt:52:50 'static fun getBitmap(p0: ContentResolver!, p1: Uri!): Bitmap!' is deprecated. Deprecated in Java.
+w: file:///D:/project%20by%20sujal/axiom/app/src/main/java/com/example/axiom/services/PhishingDetectionService.kt:261:49 'static field IP_ADDRESS: Pattern!' is deprecated. Deprecated in Java.
+w: file:///D:/project%20by%20sujal/axiom/app/src/main/java/com/example/axiom/services/UnauthorizedAccessProtectionService.kt:125:58 'static field MOVE_TO_FOREGROUND: Int' is deprecated. Deprecated in Java.
+w: file:///D:/project%20by%20sujal/axiom/app/src/main/java/com/example/axiom/ui/screens/AntiTheftSettingsScreen.kt:239:51 'val Icons.Filled.Send: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Send.
+w: file:///D:/project%20by%20sujal/axiom/app/src/main/java/com/example/axiom/ui/screens/DashboardScreen.kt:67:36 'val Icons.Filled.VolumeUp: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.VolumeUp.
+w: file:///D:/project%20by%20sujal/axiom/app/src/main/java/com/example/axiom/ui/screens/FaceEnrollmentScreen.kt:52:26 'val LocalLifecycleOwner: ProvidableCompositionLocal<LifecycleOwner>' is deprecated. Moved to lifecycle-runtime-compose library in androidx.lifecycle.compose package.
+w: file:///D:/project%20by%20sujal/axiom/app/src/main/java/com/example/axiom/ui/screens/FaceEnrollmentScreen.kt:98:44 'val Icons.Filled.ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack.
+w: file:///D:/project%20by%20sujal/axiom/app/src/main/java/com/example/axiom/ui/screens/FaceEnrollmentScreen.kt:135:17 'fun LinearProgressIndicator(progress: Float, modifier: Modifier = ..., color: Color = ..., trackColor: Color = ..., strokeCap: StrokeCap = ...): Unit' is deprecated. Use the overload that takes `progress` as a lambda.
+w: file:///D:/project%20by%20sujal/axiom/app/src/main/java/com/example/axiom/ui/screens/FaceEnrollmentScreen.kt:287:26 'val LocalLifecycleOwner: ProvidableCompositionLocal<LifecycleOwner>' is deprecated. Moved to lifecycle-runtime-compose library in androidx.lifecycle.compose package.
+w: file:///D:/project%20by%20sujal/axiom/app/src/main/java/com/example/axiom/ui/screens/ImageScannerScreen.kt:48:44 'val Icons.Filled.ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack.
+w: file:///D:/project%20by%20sujal/axiom/app/src/main/java/com/example/axiom/ui/screens/ImageScannerScreen.kt:180:17 'fun Divider(modifier: Modifier = ..., thickness: Dp = ..., color: Color = ...): Unit' is deprecated. Renamed to HorizontalDivider.
+w: file:///D:/project%20by%20sujal/axiom/app/src/main/java/com/example/axiom/ui/screens/LinkScannerScreen.kt:34:44 'val Icons.Filled.ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack.
+w: file:///D:/project%20by%20sujal/axiom/app/src/main/java/com/example/axiom/ui/screens/LinkScannerScreen.kt:169:13 'fun Divider(modifier: Modifier = ..., thickness: Dp = ..., color: Color = ...): Unit' is deprecated. Renamed to HorizontalDivider.
+w: file:///D:/project%20by%20sujal/axiom/app/src/main/java/com/example/axiom/ui/screens/PermissionsOnboardingScreen.kt:56:33 'val Icons.Filled.Message: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Message.
+w: file:///D:/project%20by%20sujal/axiom/app/src/main/java/com/example/axiom/ui/screens/PermissionsOnboardingScreen.kt:146:43 'val Icons.Filled.ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack.
+w: file:///D:/project%20by%20sujal/axiom/app/src/main/java/com/example/axiom/ui/screens/PermissionsOnboardingScreen.kt:254:39 'val Icons.Filled.ArrowForward: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowForward.
+w: file:///D:/project%20by%20sujal/axiom/app/src/main/java/com/example/axiom/ui/screens/SettingsScreen.kt:36:44 'val Icons.Filled.ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack.
+w: file:///D:/project%20by%20sujal/axiom/app/src/main/java/com/example/axiom/ui/screens/SettingsScreen.kt:90:13 'fun Divider(modifier: Modifier = ..., thickness: Dp = ..., color: Color = ...): Unit' is deprecated. Renamed to HorizontalDivider.
+w: file:///D:/project%20by%20sujal/axiom/app/src/main/java/com/example/axiom/ui/screens/SettingsScreen.kt:145:39 'val Icons.Filled.ArrowForward: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowForward.
+w: file:///D:/project%20by%20sujal/axiom/app/src/main/java/com/example/axiom/ui/screens/SettingsScreen.kt:160:38 'val Icons.Filled.VolumeUp: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.VolumeUp.
+w: file:///D:/project%20by%20sujal/axiom/app/src/main/java/com/example/axiom/ui/screens/SettingsScreen.kt:168:13 'fun Divider(modifier: Modifier = ..., thickness: Dp = ..., color: Color = ...): Unit' is deprecated. Renamed to HorizontalDivider.
+w: file:///D:/project%20by%20sujal/axiom/app/src/main/java/com/example/axiom/ui/screens/SettingsScreen.kt:209:36 'val Icons.Filled.VolumeUp: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.VolumeUp.
+
+> Task :app:compileDebugJavaWithJavac
+> Task :app:processDebugJavaRes
+> Task :app:mergeDebugJavaResource
+> Task :app:dexBuilderDebug
+> Task :app:mergeProjectDexDebug
+> Task :app:packageDebug
+> Task :app:createDebugApkListingFileRedirect
+> Task :app:assembleDebug
+
+BUILD SUCCESSFUL in 51s
+38 actionable tasks: 9 executed, 29 up-to-date

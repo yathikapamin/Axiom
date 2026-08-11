@@ -77,13 +77,6 @@ A comprehensive cybersecurity Android application designed to protect users from
 - Local threat detection
 - Offline database storage
 
----
-
-## 📱 Screenshots
-
-*(Add screenshots of your app here)*
-
----
 
 ## 🚀 Installation
 
